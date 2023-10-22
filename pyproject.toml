@@ -22,7 +22,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
-mojimoji = "^0.0.11"
+mojimoji = {git = "https://github.com/tpdn/mojimoji.git", rev = "fix_for_py312"}
 pendulum = "^3.0.0b1"
 
 [tool.poetry.group.dev.dependencies]
